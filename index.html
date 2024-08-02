@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Turístico do Maranhão</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Guia Turístico do Maranhão</h1>
+        <input type="text" id="search" placeholder="Buscar destino...">
+    </header>
+    <main>
+        <section id="destinations">
+            <div class="destination">
+                <h2>São Luís</h2>
+                <img src="public/images/sao_luis.jpg" alt="São Luís">
+                <p>São Luís é a capital do Maranhão, conhecida por sua arquitetura colonial portuguesa e rica cultura. A cidade possui um centro histórico com várias construções da época colonial e é famosa por seu carnaval e festas populares.</p>
+            </div>
+            <div class="destination">
+                <h2>Alcântara</h2>
+                <img src="public/images/alcantara.jpeg" alt="Alcântara">
+                <p>Alcântara é uma cidade histórica com ruínas coloniais e belas paisagens. A cidade oferece um ambiente tranquilo e é conhecida por suas igrejas históricas e a arquitetura colonial bem preservada.</p>
+            </div>
+            <div class="destination">
+                <h2>Lençóis Maranhenses</h2>
+                <img src="public/images/lencois.jpeg" alt="Lençóis Maranhenses">
+                <p>Os Lençóis Maranhenses são conhecidos por suas dunas de areia e lagoas de água doce. É um dos maiores e mais belos desertos de areia do Brasil, com paisagens impressionantes que atraem turistas de todo o mundo.</p>
+            </div>
+            <div class="destination">
+                <h2>Chapada das Mesas</h2>
+                <img src="public/images/chapada_das_mesas.jpeg" alt="Chapada das Mesas">
+                <p>A Chapada das Mesas é uma região com paisagens naturais impressionantes e cachoeiras. É um destino popular para ecoturismo e oferece trilhas e mirantes deslumbrantes.</p>
+            </div>
+            <div class="destination">
+                <h2>Carolina</h2>
+                <img src="public/images/carolina.jpeg" alt="Carolina">
+                <p>Carolina é famosa por suas belezas naturais e pontos turísticos como a Cachoeira do Prata. É um local ideal para quem gosta de aventuras ao ar livre e contato com a natureza.</p>
+            </div>
+        </section>
+        <div id="map" style="height: 400px;"></div>
+    </main>
+    <script src="script.js"></script>
+    <script src="public/scripts/map.js"></script>
+</body>
+</html>
